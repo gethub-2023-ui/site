@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Сэлф фотостудия</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Переключить навигацию">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav custom-nav">
+            <li class="nav-item">
+              <button type="button" class="btn btn-outline-primary main-btn active" disabled>ГЛАВНАЯ</button>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link-custom" href="#">СЕРТИФИКАТЫ</a>
+            </li>
+            <li class="nav-item logo-item">
+              <a class="navbar-brand mb-0" href="#">
+                <img src="images/logo.svg" alt="Логотип" class="logo-img">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link-custom" href="#">АРЕНДА ЗАЛОВ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link-custom" href="#">О СТУДИИ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="main-content">
+      <!-- Hero секция с двумя колонками -->
+      <div class="hero-section">
+        <div class="row align-items-center">
+          <!-- Левая колонка с изображением -->
+          <div class="col-lg-6">
+            <div class="hero-image">
+              <img src="images/IMG_9625 4.svg" alt="Фотостудия" class="img-fluid">
+            </div>
+          </div>
+          
+          <!-- Правая колонка с текстом и кнопкой -->
+          <div class="col-lg-6">
+            <div class="hero-content d-flex flex-column justify-content-center h-100">
+              <div class="self-label">[СЭЛФ] -</div>
+              <p class="hero-text">
+                фотостудия без фотографа для создания уникальных автопортретов.<br>
+                В фотокомнате установлено зеркало, за которым скрыта камера. Управление съёмкой осуществляете вы — с помощью компактного пульта.
+              </p>
+              <button class="btn btn-booking align-self-start">ЗАПИСАТЬСЯ НА СЪЁМКУ</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Отдельный блок с надписью -->
+      <div class="duration-banner">
+        <div class="container">
+          <div class="duration-title">
+            МОЖНО ВЫБРАТЬ РАЗНУЮ ДЛИТЕЛЬНОСТЬ СЪЁМКИ:
+          </div>
+        </div>
+      </div>
+
+      <!-- Блок с тарифами -->
+      <div class="pricing-section">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="pricing-card">
+              <div class="duration">25 МИНУТ</div>
+              <div class="price">2000 рублей</div>
+              <p class="description">подойдёт для автопортретов, семейных съёмок, парных съёмок, съёмок с питомцами или детьми</p>
+            </div>
+          </div>
+          
+          <div class="col-md-4 mb-4">
+            <div class="pricing-card">
+              <div class="duration">40 МИНУТ</div>
+              <div class="price">3500–3700 рублей</div>
+              <p class="description">средняя продолжительность съёмки, подойдёт для смены нескольких образов или семейной съёмки</p>
+            </div>
+          </div>
+          
+          <div class="col-md-4 mb-4">
+            <div class="pricing-card">
+              <div class="duration">90 МИНУТ</div>
+              <div class="price">4500–5500 рублей</div>
+              <p class="description">подойдёт для больших компаний, семейной съёмки или для съёмки во множестве образов</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
